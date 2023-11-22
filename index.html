@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>QR code component</title>
+
+  <style>
+    * {
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    .card, .text, p {
+      background-color: aliceblue;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 100px;
+      box-shadow: 3px 3px 8px 3px gray;
+      border-radius: 20px;
+      width: 330px;
+      height: 500px;
+    }
+
+    .qr {
+      width: 270px;
+      height: 270px;
+      border-radius: 20px;
+      margin: 15px;
+      position: relative;
+      top: 18px;
+    }
+
+    .text {
+      margin-top: 10px;
+      text-align: center;
+      height: 300px;
+      width: 300px;
+    }
+
+    .maincard {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .first {
+      color: hsl(218, 44%, 22%);
+      font-size: 20px;
+      font-weight: 700;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .second {
+      color: hsl(220, 15%, 55%);
+      font-size: 15px;
+      font-weight: 500;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+  </style>
+</head>
+<body>
+  <main class="maincard">
+    <div class="card">
+      <img class ="qr" src="./images/image-qr-code.png" />
+      <div class="text">
+        <p class="first">
+          Improve your front-end skills by building projects
+        </p>
+        <p class="second">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
+    </div>
+    </div>
+  </main>
+  
+
+</body>
+</html>
