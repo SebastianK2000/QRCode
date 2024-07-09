@@ -2,6 +2,10 @@
 
 This project is a simple QR code component designed for improving front-end skills through project building. Users can scan the QR code to visit Frontend Mentor.
 
+## Link to the page: 
+
+https://qr-code-page-html-css.netlify.app
+
 
 
 ![image](https://github.com/SebastianK2000/QRCode/assets/127401994/9a84ef95-9081-4bac-80e3-e821453583f8)
